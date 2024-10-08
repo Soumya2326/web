@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ADVENTURE</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul  class="nav-links">
+           <li class="active"></li><a href="#"></a>Home</li>
+           <li><a href="#"></a>Tours</li>
+           <li><a href="#"></a>Explores</li>
+           <li><a href="#"></a>About</li>
+           <li class="ctn"><a href="#"></a>Contact</li>+
+        </ul>
+        <img src="img/pngegg.png" alt=""class="menu-btn">
+    </nav>   
+    <header>
+        <div class="header-content">
+            <h2>Explore the Colorful World</h2>  
+            <div class="line"></div> 
+        <h1>A WONDERFUL GIFT</h1>    
+        <a href="#" class="ctn"> Learn More</a>       
+    </div>
+    </header>
+
+    <section class="events"> 
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img6.jpg" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>A trekking experience can be a challenging and unforgettable way to explore nature, challenge yourself, and make lifelong friends. </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+                <div class="col">
+                    <img src="./img/img4.jpg" alt="">
+                    <h4>Working Holidays</h4>
+                    <p>Working holidays combine travel with temporary employment, allowing you to explore new places while earning some money. </p>
+                    <a href="#" class="ctn">Learn More</a>
+                </div>
+        </div>       
+
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <P>Exploring the world is a journey filled with discovery, adventure, and personal growth.</P>
+        <a href="#" class="ctn">Learn More</a>
+        </div>
+
+    </section>
+    <section class="tours">
+        
+            <div class="row">
+                <div class="col content-col">
+                    <h1>UPCOMING TOURS AND DESTINATIONS</h1>
+                    <div class="line"></div>
+                    <p>Embark on unforgettable journeys with our carefully curated tours, designed to ignite your wanderlust and immerse you in the world's most captivating cultures and landscapes. </p>
+                     <a href="#" class="ctn">Learn More</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        <img src="img/image8.jpeg" alt="">
+                        <img src="img/img25.jpg" alt="">                        
+                        <img src="img/image9.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script> 
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>
